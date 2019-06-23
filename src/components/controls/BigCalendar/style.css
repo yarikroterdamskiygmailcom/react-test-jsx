@@ -1,0 +1,41 @@
+.rbc-header {
+    height: 50px;
+    background: #ffffff;
+    font-size: 14px;
+    line-height: 28px;
+    color: #1e9ead;
+    font-family: "Gotham Pro", sans-serif;
+    font-weight: bold;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-transform: capitalize;
+}
+
+.rbc-calendar {
+    height: 100vh;
+}
+
+
+.rbc-off-range-bg {
+    background: #edf5fa;
+}
+
+.rbc-event {
+    text-align: center;
+    font-size: 13px;
+    line-height: 28px;
+    color: #ffffff;
+    font-family: "Gotham Pro", sans-serif;
+    font-weight: 500;
+    background: none;
+}
+
+.rbc-event:focus {
+    outline: none;
+}
+
+.rbc-event.rbc-selected {
+    text-align: center;
+    background: none;
+}

@@ -1,0 +1,73 @@
+.react-calendar {
+    border: 1px solid silver;
+    width: 100%;
+    z-index: 9999;
+    max-width: 315px;
+    min-width: 265px;
+    position: absolute;
+    border-radius: 10px;
+}
+
+.react-calendar__month-view__days, .react-calendar__month-view__weekdays {
+    display: flex;
+    justify-content: center;
+}
+
+.react-calendar__tile {
+    max-width: 40px !important;
+    height: 40px;
+}
+
+.react-calendar__month-view__weekdays__weekday {
+    max-width: 40px !important;
+}
+
+.react-calendar__tile--hasActive {
+    color: white;
+    background: linear-gradient(2deg, rgb(21, 149, 177) 0%, rgb(87, 221, 139) 100%) !important;
+}
+
+.react-calendar__navigation {
+    height: 50px;
+    margin-bottom: 10px;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+    background: linear-gradient(2deg, rgb(21, 149, 177) 0%, rgb(87, 221, 139) 100%) !important;
+}
+
+.react-calendar__tile {
+    border-radius: 100%;
+}
+
+.react-calendar__navigation button {
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+}
+
+
+.react-calendar__tile--active,
+.react-calendar__navigation button[disabled] {
+    border-radius: 100%;
+    background: linear-gradient(2deg, #1595b1 0%, #57dd8b 100%) !important;
+}
+
+.react-calendar__tile--active {
+    color: #555555 !important;
+    background: #EEF8FF !important;
+}
+
+.react-calendar__tile--active:hover {
+    background: linear-gradient(2deg, rgba(21, 149, 177, 0.5) 0%, rgba(87, 221, 139, 0.5) 100%) !important;
+}
+
+.react-calendar__navigation button:hover, .react-calendar__navigation button:focus {
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+    background: linear-gradient(2deg, rgba(21, 149, 177, 0.5) 0%, rgba(87, 221, 139, 0.5) 100%) !important;
+}
+
+.react-calendar__tile--rangeStart,
+.react-calendar__tile--rangeEnd {
+    color: white !important;
+    background: linear-gradient(2deg, #1595b1 0%, #57dd8b 100%) !important;
+}

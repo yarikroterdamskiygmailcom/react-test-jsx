@@ -1,0 +1,128 @@
+{
+  "extends": [
+    "tslint-config-airbnb",
+    "tslint-react"
+  ],
+  "rules": {
+    "ban-ts-ignore": "true",
+    "no-any": false,
+    "no-parameter-reassignment": false,
+    "no-empty-interface": true,
+    "no-import-side-effect": [
+      true,
+      {
+        "ignore-module": "(\\.html|\\.css|moment/locale/ru)$"
+      }
+    ],
+    "member-access": [
+      true,
+      "check-accessor"
+    ],
+    "no-magic-numbers": [
+      true,
+      0,
+      1,
+      2,
+      3,
+      4,
+      5,
+      8
+    ],
+    "only-arrow-functions": [
+      true,
+      "allow-named-functions"
+    ],
+    "promise-function-async": false,
+    "typedef": true,
+    "await-promise": false,
+    "curly": [
+      true,
+      "ignore-same-line"
+    ],
+    "function-constructor": true,
+    "no-conditional-assignment": true,
+    "no-debugger": true,
+    "no-console": true,
+    "no-dynamic-delete": true,
+    "no-empty": [
+      true,
+      "allow-empty-functions"
+    ],
+    "jsx-no-lambda": false,
+    "no-inferred-empty-object-type": false,
+    "no-invalid-template-strings": true,
+    "no-misused-new": true,
+    "no-return-await": true,
+    "no-sparse-arrays": true,
+    "no-string-literal": true,
+    "no-string-throw": true,
+    "no-unused-expression": true,
+    "prefer-conditional-expression": [
+      true,
+      "check-else-if"
+    ],
+    "jsx-no-multiline-js": false,
+    "prefer-object-spread": true,
+    "restrict-plus-operands": true,
+    "switch-default": true,
+    "triple-equals": true,
+    "unnecessary-constructor": true,
+    "deprecation": true,
+    "eofline": true,
+    "indent": [
+      true,
+      "spaces"
+    ],
+    "no-duplicate-imports": true,
+    "trailing-comma": true,
+    "array-type": [
+      true,
+      "array"
+    ],
+    "arrow-return-shorthand": [
+      true,
+      "multiline"
+    ],
+    "no-implicit-dependencies": [
+      true,
+      [
+        "src"
+      ]
+    ],
+    "import-name": [
+      false
+    ],
+    "semicolon": [
+      true,
+      "never"
+    ],
+    "variable-name": [
+      true,
+      "allow-pascal-case"
+    ],
+    "max-line-length": [
+      true,
+      150
+    ],
+    "object-literal-sort-keys": false,
+    "jsx-boolean-value": [
+      "never"
+    ],
+    "member-ordering": [
+      true,
+      {
+        "order": [
+          "public-static-field",
+          "private-static-field",
+          "public-instance-field",
+          "private-instance-field",
+          "public-constructor",
+          "private-constructor",
+          "public-instance-method",
+          "protected-instance-method",
+          "private-instance-method"
+        ]
+      }
+    ]
+  }
+}

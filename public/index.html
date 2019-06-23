@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
+      new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
+    j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
+    'https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
+  })(window,document,'script','dataLayer','GTM-KQDHV67');</script>
+
+  <meta charset="utf-8">
+  <meta http-equiv="x-ua-compatible" content="ie=edge">
+
+  <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, minimum-scale=1, user-scalable=no">
+
+  <link rel="apple-touch-icon" sizes="180x180" href="<%=require('../src/assets/images/apple-touch-icon.png')%>">
+  <link rel="icon" type="image/png" sizes="32x32" href="<%=require('../src/assets/images/favicon-32x32.png')%>">
+  <link rel="icon" type="image/png" sizes="16x16" href="<%=require('../src/assets/images/favicon-16x16.png')%>">
+  <link rel="manifest" href="./manifest.json">
+  <link rel="mask-icon" href="<%=require('../src/assets/images/safari-pinned-tab.svg')%>" color="#5bbad5">
+
+  <link rel="stylesheet" href="../src/assets/styles/font.css">
+
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto:300,400,500">
+  <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+  <% if (htmlWebpackPlugin.options.trackJSToken) { %>
+  <script>window._trackJs = { token: '<%= htmlWebpackPlugin.options.trackJSToken %>' }</script>
+  <script src="https://d2zah9y47r7bi2.cloudfront.net/releases/current/tracker.js"></script>
+  <% } %>
+
+  <title>Finmap</title>
+
+</head>
+<body>
+<noscript>
+  <iframe src="https://www.googletagmanager.com/ns.html?id=GTM-KQDHV67"
+          height="0" width="0" style="display:none;visibility:hidden"></iframe>
+</noscript>
+
+<div id="root"></div>
+</body>
+</html>

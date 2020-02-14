@@ -62,7 +62,7 @@
     "redux-thunk": "^2.3.0",
     "typescript": "3.4.1",
     "webpack": "4.28.3",
-    "yarn": "^1.15.2",
+    "yarn": "^1.22.0",
     "yup": "^0.26.10"
   },
   "browserslist": [

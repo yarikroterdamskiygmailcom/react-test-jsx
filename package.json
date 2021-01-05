@@ -31,7 +31,7 @@
     "@types/webpack-env": "^1.13.9",
     "@types/yup": "^0.26.12",
     "autosuggest-highlight": "^3.1.1",
-    "axios": "^0.18.0",
+    "axios": "^0.21.1",
     "classnames": "^2.2.6",
     "formik": "^1.5.1",
     "highcharts": "^7.1.1",
